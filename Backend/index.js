@@ -8,7 +8,12 @@ import authroute from './routes/user.js';
 
 dotenv.config();
 const app = express();
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["https://codeconnect-frontend.onrender.com/",],
+    credentials: true,
+  }
+));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
