@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: "https://dev-connect-api-eta.vercel.app", // Adjust the base URL as needed
+    baseURL: "https://codeconnect-klmd.onrender.com", // Adjust the base URL as needed
 });
 
 // Interceptor to add token to headers
