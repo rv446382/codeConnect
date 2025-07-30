@@ -10,7 +10,7 @@ dotenv.config();
 const app = express();
 app.use(cors(
   {
-    origin: ["https://codeconnect-frontend.onrender.com/",],
+    origin: ["https://codeconnect-frontend.onrender.com",],
     credentials: true,
   }
 ));
